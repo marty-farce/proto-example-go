@@ -5,6 +5,6 @@ import (
 )
 
 func main() {
-
 	fmt.Println(encode())
+	fmt.Println(decode(encode()))
 }
